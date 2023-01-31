@@ -9,7 +9,7 @@ from selfdrive.modeld.constants import T_IDXS
 #          model predictions above this speed can be unpredictable
 V_CRUISE_MAX = 145  # kph
 V_CRUISE_MIN = 5  # kph
-V_CRUISE_DELTA = 5
+V_CRUISE_DELTA = 10 #5
 V_CRUISE_ENABLE_MIN = 10  # kph
 
 LAT_MPC_N = 16
